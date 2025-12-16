@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Restoran Sederhana</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restoran Sederhana</h1>
+    <p>Makanan enak, harga bersahabat</p>
+</header>
+
+<div class="container">
+    <div class="menu-utama">
+        <img src="{{ url_for('static', filename='images/nasi_goreng.jpg') }}" alt="Nasi Goreng">
+        <p>Nasi Goreng Spesial</p>
+    </div>
+
+    <a href="/menu" class="button">Lihat Menu</a>
+</div>
+
+</body>
+</html>
